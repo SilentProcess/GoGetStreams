@@ -28,7 +28,7 @@ func main() {
 	start := time.Now()
 
 	MyData := new(ReturnData)
-	getJson("https://api.twitch.tv/kraken/streams?channel=boxbox,lirik,imaqtpie&stream_type=live&client_id=550zq8u1v3pqazeqm5648ir4k9esiy", MyData)
+	getJson("https://api.twitch.tv/kraken/streams?channel=boxbox,lirik,imaqtpie&stream_type=live&client_id=InsertClientIDHere", MyData)
 	fmt.Println(MyData.Streams)
 
 	elapsed := time.Since(start)

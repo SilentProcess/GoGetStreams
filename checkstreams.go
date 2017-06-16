@@ -35,7 +35,7 @@ func main() {
 	fmt.Printf("Total execution time: %s", elapsed)
 }
 
-// fucntion for deconding json
+// function for decoding json
 func getJson(url string, target interface{}) error {
 	r, err := client.Get(url)
 	if err != nil {

@@ -1,2 +1,2 @@
 # GoGetStreams
-Golang program for getting stuff with twitchAPI
+Golang program for checking which of you favorite streamers are live using twitchAPI
